@@ -1,0 +1,3 @@
+C:/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir
+C:/Repo/ui-app/UI-App/build/CMakeFiles/edit_cache.dir
+C:/Repo/ui-app/UI-App/build/CMakeFiles/rebuild_cache.dir
