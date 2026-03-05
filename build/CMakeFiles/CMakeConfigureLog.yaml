@@ -56,7 +56,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -65,6 +64,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -321,15 +321,6 @@ events:
       - "C:/Program Files/Go/bin/samu.com"
       - "C:/Program Files/Go/bin/samu.exe"
       - "C:/Program Files/Go/bin/samu"
-      - "C:/Program Files/CMake/bin/ninja-build.com"
-      - "C:/Program Files/CMake/bin/ninja-build.exe"
-      - "C:/Program Files/CMake/bin/ninja-build"
-      - "C:/Program Files/CMake/bin/ninja.com"
-      - "C:/Program Files/CMake/bin/ninja.exe"
-      - "C:/Program Files/CMake/bin/ninja"
-      - "C:/Program Files/CMake/bin/samu.com"
-      - "C:/Program Files/CMake/bin/samu.exe"
-      - "C:/Program Files/CMake/bin/samu"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/ninja-build.com"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/ninja-build.exe"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/ninja-build"
@@ -402,6 +393,15 @@ events:
       - "C:/Program Files/dotnet/samu.com"
       - "C:/Program Files/dotnet/samu.exe"
       - "C:/Program Files/dotnet/samu"
+      - "C:/Program Files/CMake/bin/ninja-build.com"
+      - "C:/Program Files/CMake/bin/ninja-build.exe"
+      - "C:/Program Files/CMake/bin/ninja-build"
+      - "C:/Program Files/CMake/bin/ninja.com"
+      - "C:/Program Files/CMake/bin/ninja.exe"
+      - "C:/Program Files/CMake/bin/ninja"
+      - "C:/Program Files/CMake/bin/samu.com"
+      - "C:/Program Files/CMake/bin/samu.exe"
+      - "C:/Program Files/CMake/bin/samu"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/ninja-build.com"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/ninja-build.exe"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/ninja-build"
@@ -451,43 +451,7 @@ events:
       - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja-build.exe"
       - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja-build"
       - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja.com"
-      - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja.exe"
-      - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja"
-      - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/samu.com"
-      - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/samu.exe"
-      - "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/samu"
-      - "C:/Users/JGies/go/bin/ninja-build.com"
-      - "C:/Users/JGies/go/bin/ninja-build.exe"
-      - "C:/Users/JGies/go/bin/ninja-build"
-      - "C:/Users/JGies/go/bin/ninja.com"
-      - "C:/Users/JGies/go/bin/ninja.exe"
-      - "C:/Users/JGies/go/bin/ninja"
-      - "C:/Users/JGies/go/bin/samu.com"
-      - "C:/Users/JGies/go/bin/samu.exe"
-      - "C:/Users/JGies/go/bin/samu"
-      - "C:/Users/JGies/.dotnet/tools/ninja-build.com"
-      - "C:/Users/JGies/.dotnet/tools/ninja-build.exe"
-      - "C:/Users/JGies/.dotnet/tools/ninja-build"
-      - "C:/Users/JGies/.dotnet/tools/ninja.com"
-      - "C:/Users/JGies/.dotnet/tools/ninja.exe"
-      - "C:/Users/JGies/.dotnet/tools/ninja"
-      - "C:/Users/JGies/.dotnet/tools/samu.com"
-      - "C:/Users/JGies/.dotnet/tools/samu.exe"
-      - "C:/Users/JGies/.dotnet/tools/samu"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ninja-build.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ninja-build.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ninja-build"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ninja.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ninja.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/ninja"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/samu.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/samu.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/samu"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja-build.com"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja-build.exe"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja-build"
-      - "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.com"
-    found: "C:/Program Files/Microsoft Visual Studio/18/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe"
+    found: "C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja.exe"
     search_context:
       ENV{PATH}:
         - "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.50.35717\\bin\\HostX64\\x64"
@@ -517,7 +481,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -526,6 +489,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -585,7 +549,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -594,6 +557,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -638,7 +602,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -647,6 +610,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -713,7 +677,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -722,6 +685,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -759,11 +723,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       CMakeCCompilerId.c
-      Microsoft (R) Incremental Linker Version 14.50.35724.0
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCCompilerId.exe 
@@ -775,7 +739,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Repo/ui-app/UI-App/build/CMakeFiles/4.2.1/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -787,7 +751,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Repo\\ui-app\\UI-App\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\build\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -839,7 +803,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -848,6 +811,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -892,7 +856,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -901,6 +864,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -962,7 +926,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -971,6 +934,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -1065,9 +1029,6 @@ events:
       - "C:/Program Files/Go/bin/lld-link.com"
       - "C:/Program Files/Go/bin/lld-link.exe"
       - "C:/Program Files/Go/bin/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/lld-link.com"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/lld-link.exe"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/lld-link"
@@ -1092,6 +1053,9 @@ events:
       - "C:/Program Files/dotnet/lld-link.com"
       - "C:/Program Files/dotnet/lld-link.exe"
       - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
@@ -1158,7 +1122,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -1167,6 +1130,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1226,7 +1190,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -1235,6 +1198,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -1279,7 +1243,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -1288,6 +1251,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1347,7 +1311,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -1356,6 +1319,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -1427,7 +1391,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -1436,6 +1399,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1495,7 +1459,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -1504,6 +1467,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -1548,7 +1512,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -1557,6 +1520,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1622,7 +1586,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -1631,6 +1594,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1697,7 +1661,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -1706,6 +1669,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -1743,11 +1707,11 @@ events:
       
       The output was:
       0
-      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35724 for x64
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.50.35725 for x64
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       CMakeCXXCompilerId.cpp
-      Microsoft (R) Incremental Linker Version 14.50.35724.0
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCXXCompilerId.exe 
@@ -1759,7 +1723,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Repo/ui-app/UI-App/build/CMakeFiles/4.2.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/4.2.3/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -1771,7 +1735,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Repo\\ui-app\\UI-App\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\build\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -1823,7 +1787,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -1832,6 +1795,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -1926,9 +1890,6 @@ events:
       - "C:/Program Files/Go/bin/lld-link.com"
       - "C:/Program Files/Go/bin/lld-link.exe"
       - "C:/Program Files/Go/bin/lld-link"
-      - "C:/Program Files/CMake/bin/lld-link.com"
-      - "C:/Program Files/CMake/bin/lld-link.exe"
-      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/lld-link.com"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/lld-link.exe"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/lld-link"
@@ -1953,6 +1914,9 @@ events:
       - "C:/Program Files/dotnet/lld-link.com"
       - "C:/Program Files/dotnet/lld-link.exe"
       - "C:/Program Files/dotnet/lld-link"
+      - "C:/Program Files/CMake/bin/lld-link.com"
+      - "C:/Program Files/CMake/bin/lld-link.exe"
+      - "C:/Program Files/CMake/bin/lld-link"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/lld-link.com"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/lld-link.exe"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/lld-link"
@@ -2019,7 +1983,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -2028,6 +1991,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -2090,7 +2054,6 @@ events:
       - "C:/Program Files/Neovim/bin/"
       - "C:/Gradle/bin/"
       - "C:/Program Files/Go/bin/"
-      - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/Microchip/xc8/v2.36/bin/"
       - "C:/ProgramData/chocolatey/bin/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/"
@@ -2099,6 +2062,7 @@ events:
       - "C:/Program Files/Git/usr/bin/"
       - "C:/Program Files/Microsoft SQL Server/130/Tools/Binn/"
       - "C:/Program Files/dotnet/"
+      - "C:/Program Files/CMake/bin/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/Scripts/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Python314/"
       - "C:/Users/JGies/AppData/Local/Programs/Python/Launcher/"
@@ -2182,7 +2146,6 @@ events:
         - "C:\\Program Files\\Neovim\\bin"
         - "C:\\Gradle\\bin"
         - "C:\\Program Files\\Go\\bin"
-        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microchip\\xc8\\v2.36\\bin"
         - "C:\\ProgramData\\chocolatey\\bin"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\"
@@ -2191,6 +2154,7 @@ events:
         - "C:\\Program Files\\Git\\usr\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\"
         - "C:\\Program Files\\dotnet\\"
+        - "C:\\Program Files\\CMake\\bin"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\Scripts\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Python314\\"
         - "C:\\Users\\JGies\\AppData\\Local\\Programs\\Python\\Launcher\\"
@@ -2218,8 +2182,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-1waawi"
-      binary: "C:/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-1waawi"
+      source: "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-f6p7gw"
+      binary: "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-f6p7gw"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2228,11 +2192,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-1waawi'
+        Change Dir: 'C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-f6p7gw'
         
-        Run Build Command(s): C:/PROGRA~1/MICROS~3/18/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_bb2ac
-        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_bb2ac.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_bb2ac.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_bb2ac.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_bb2ac.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_bb2ac.exe /implib:cmTC_bb2ac.lib /pdb:cmTC_bb2ac.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja.exe -v cmTC_68c57
+        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_68c57.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_68c57.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_68c57.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_68c57.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_68c57.exe /implib:cmTC_68c57.lib /pdb:cmTC_68c57.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -2261,7 +2225,7 @@ events:
       - "CMakeLists.txt:3 (project)"
     message: |
       Running the C compiler's linker: "C:/PROGRA~1/MICROS~3/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35724.0
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
@@ -2272,8 +2236,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-v06vfe"
-      binary: "C:/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-v06vfe"
+      source: "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-khsh5i"
+      binary: "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-khsh5i"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -2283,11 +2247,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-v06vfe'
+        Change Dir: 'C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/CMakeScratch/TryCompile-khsh5i'
         
-        Run Build Command(s): C:/PROGRA~1/MICROS~3/18/COMMUN~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_81ddf
-        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_81ddf.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_81ddf.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_81ddf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_81ddf.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_81ddf.exe /implib:cmTC_81ddf.lib /pdb:cmTC_81ddf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/Users/JGies/AppData/Local/Microsoft/WinGet/Links/ninja.exe -v cmTC_34962
+        [1/2] C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_34962.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_34962.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_34962.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_34962.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_34962.exe /implib:cmTC_34962.lib /pdb:cmTC_34962.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -2316,6 +2280,6 @@ events:
       - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~3/18/COMMUN~1/VC/Tools/MSVC/1450~1.357/bin/Hostx64/x64/link.exe" "-v"
-      Microsoft (R) Incremental Linker Version 14.50.35724.0
+      Microsoft (R) Incremental Linker Version 14.50.35725.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

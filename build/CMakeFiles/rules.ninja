@@ -57,7 +57,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Repo\ui-app\UI-App -BC:\Repo\ui-app\UI-App\build
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\JGies\Repo\ui-app\UI-App -BC:\Users\JGies\Repo\ui-app\UI-App\build
   description = Re-running CMake...
   generator = 1
 
@@ -66,7 +66,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = C:\PROGRA~1\MICROS~3\18\COMMUN~1\Common7\IDE\COMMON~1\MICROS~1\CMake\Ninja\ninja.exe $FILE_ARG -t clean $TARGETS
+  command = C:\Users\JGies\AppData\Local\Microsoft\WinGet\Links\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -74,6 +74,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = C:\PROGRA~1\MICROS~3\18\COMMUN~1\Common7\IDE\COMMON~1\MICROS~1\CMake\Ninja\ninja.exe -t targets
+  command = C:\Users\JGies\AppData\Local\Microsoft\WinGet\Links\ninja.exe -t targets
   description = All primary targets available:
 

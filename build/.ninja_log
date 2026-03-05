@@ -1,4 +1,14 @@
-# ninja log v6
-10	63	7934482023970284	CMakeFiles/ui-app.dir/src/resources.rc.res	79b6d3adc9c78509
-6	206	7934482023925172	CMakeFiles/ui-app.dir/src/main.c.obj	72466cff0ead68c8
-206	378	7934482025924125	ui-app.exe	e00430a8c457c8e2
+# ninja log v7
+16	118	7943913250256005	CMakeFiles/ui-app.dir/src/resources.rc.res	c34d4f08945373b3
+3	247	7943913250128370	CMakeFiles/ui-app.dir/src/main.c.obj	52393ad95a316aff
+247	424	7943913252571735	ui-app.exe	e00bb2e1c9e5a059
+3	200	7943914473725118	CMakeFiles/ui-app.dir/src/main.c.obj	52393ad95a316aff
+201	306	7943914475693556	ui-app.exe	e00bb2e1c9e5a059
+5	644	7943925000844768	CMakeFiles/ui-app.dir/src/main.c.obj	52393ad95a316aff
+644	766	7943925007231188	ui-app.exe	e00bb2e1c9e5a059
+13	201	7943925343254933	CMakeFiles/ui-app.dir/src/main.c.obj	52393ad95a316aff
+202	307	7943925345142147	ui-app.exe	e00bb2e1c9e5a059
+17	207	7943928003274525	CMakeFiles/ui-app.dir/src/main.c.obj	52393ad95a316aff
+207	365	7943928005172008	ui-app.exe	e00bb2e1c9e5a059
+3	190	7943935913803938	CMakeFiles/ui-app.dir/src/main.c.obj	52393ad95a316aff
+190	304	7943935915671436	ui-app.exe	e00bb2e1c9e5a059

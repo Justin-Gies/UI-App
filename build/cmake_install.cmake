@@ -1,4 +1,4 @@
-# Install script for directory: C:/Repo/ui-app/UI-App
+# Install script for directory: C:/Users/JGies/Repo/ui-app/UI-App
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,7 +35,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Repo/ui-app/UI-App/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/JGies/Repo/ui-app/UI-App/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -51,6 +51,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Repo/ui-app/UI-App/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/JGies/Repo/ui-app/UI-App/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
