@@ -4,13 +4,12 @@
 
 #define WM_LBUTTONDOWN 0x0201
 
-#include <windows.h>
 #include <stdint.h>
 #include <stdbool.h>
 
 #include "resources.h"
+#include "window.h"
 
-LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
 
 int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow) {
   int posx = 300;
@@ -19,7 +18,7 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine,
   int height = 768;
   
   // Register the window class.
-  const wchar_t CLASS_NAME[] = L"Sample Window Class";
+  const wchar_t CLASS_NAME[] = L"Test App";
 
   WNDCLASSEX wc = {0};
   wc.cbSize = sizeof(WNDCLASSEX);
@@ -28,8 +27,11 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine,
   wc.lpfnWndProc = WindowProc;
   wc.hInstance = instance;
   wc.lpszClassName = CLASS_NAME;
+  wc.hbrBackground = (HBRUSH)COLOR_WINDOW;
+  wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 
-  RegisterClassExW(&wc);
+  if(!RegisterClassExW(&wc))
+    return -1;
 
   /* Create the window. */
 
@@ -52,36 +54,17 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine,
     return 0;
   }
 
-  ShowWindow(hwnd, nCmdShow);
+  ShowWindow(hwnd, nCmdShow); 
 
   // Run the message loop.
 
   MSG msg = {0};
-  while (GetMessage(&msg, NULL, 0, 0) > 0) {
+  while (GetMessage(&msg, NULL, 0, 0)) {
     TranslateMessage(&msg);
     DispatchMessage(&msg);
   }
 
+  
   return 0;
 }
 
-LRESULT CALLBACK WindowProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
-  switch (uMsg) {
-    case WM_DESTROY:
-      PostQuitMessage(0);
-      return 0;
-
-    case WM_PAINT: {
-      PAINTSTRUCT ps;
-      HDC hdc = BeginPaint(hwnd, &ps);
-      TextOut(hdc,0,0,L"Hello, Windows!", 15);     
-
-      FillRect(hdc, &ps.rcPaint, (HBRUSH)(COLOR_WINDOW + 1));
-      EndPaint(hwnd, &ps);
-      return 0L;
-    }
-    default:
-      return DefWindowProc(hwnd, uMsg, wParam, lParam);
-  }
-  return DefWindowProc(hwnd, uMsg, wParam, lParam);
-}

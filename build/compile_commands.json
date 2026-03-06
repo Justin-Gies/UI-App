@@ -1,14 +1,56 @@
 [
 {
   "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
-  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\include /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\main.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\main.c",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\main.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\main.c",
   "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/main.c",
   "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/main.c.obj"
 },
 {
   "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
-  "command": "C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe -I C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\include -DWIN32 -D_DEBUG /fo CMakeFiles\\ui-app.dir\\src\\resources.rc.res C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\resources.rc",
+  "command": "C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe -I C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc -DWIN32 -D_DEBUG /fo CMakeFiles\\ui-app.dir\\src\\resources.rc.res C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\resources.rc",
   "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/resources.rc",
   "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/resources.rc.res"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\window.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\window.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/window.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/window.c.obj"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\settings.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\settings.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/settings.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/settings.c.obj"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\edit_menu.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\edit_menu.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/edit_menu.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/edit_menu.c.obj"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\file_menu.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\file_menu.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/file_menu.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/file_menu.c.obj"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\load_settings.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\load_settings.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/load_settings.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/load_settings.c.obj"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\save_settings.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\save_settings.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/save_settings.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/save_settings.c.obj"
+},
+{
+  "directory": "C:/Users/JGies/Repo/ui-app/UI-App/build",
+  "command": "C:\\PROGRA~1\\MICROS~3\\18\\COMMUN~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -IC:\\Users\\JGies\\Repo\\ui-app\\UI-App\\inc /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\ui-app.dir\\src\\menu.c.obj /FdCMakeFiles\\ui-app.dir\\ /FS -c C:\\Users\\JGies\\Repo\\ui-app\\UI-App\\src\\menu.c",
+  "file": "C:/Users/JGies/Repo/ui-app/UI-App/src/menu.c",
+  "output": "C:/Users/JGies/Repo/ui-app/UI-App/build/CMakeFiles/ui-app.dir/src/menu.c.obj"
 }
 ]

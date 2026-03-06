@@ -1,0 +1,18 @@
+#pragma once
+#ifndef _MENU
+#define _MENU
+#endif
+
+#include <windows.h>
+
+#define FILE_MENU_NEW 1
+#define FILE_MENU_OPEN 2
+#define FILE_MENU_SAVE 3
+#define FILE_MENU_EXIT 4
+
+// Handles
+HMENU main_menu;
+
+
+// Function Declarations
+void add_menu(HWND);
