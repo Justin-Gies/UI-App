@@ -4,19 +4,19 @@
 
 #define WM_LBUTTONDOWN 0x0201
 
-#include <stdint.h>
 #include <stdbool.h>
+#include <stdint.h>
 
 #include "resources.h"
 #include "window.h"
 
-
-int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine, int nCmdShow) {
+int WINAPI wWinMain(HINSTANCE instance, HINSTANCE PrevInstance, PWSTR CmdLine,
+                    int CmdShow) {
   int posx = 300;
   int posy = 200;
   int width = 1024;
   int height = 768;
-  
+
   // Register the window class.
   const wchar_t CLASS_NAME[] = L"Test App";
 
@@ -30,31 +30,19 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine,
   wc.hbrBackground = (HBRUSH)COLOR_WINDOW;
   wc.hCursor = LoadCursor(NULL, IDC_ARROW);
 
-  if(!RegisterClassExW(&wc))
-    return -1;
+  if (!RegisterClassExW(&wc)) return -1;
 
   /* Create the window. */
 
   HWND hwnd =
-      CreateWindowEx(0,                                                                 // Optional window styles.
-                     CLASS_NAME,                                                        // Window class
-                     L"Test App",                                                       // Window text
-                     WS_OVERLAPPEDWINDOW,                                               // Window style
-                     posx,                                                              // X Position
-                     posy,                                                              // Y Position
-                     width,                                                             // Window Width
-                     height,                                                            // Window Height
-                     NULL,                                                              // Parent window
-                     NULL,                                                              // Menu
-                     instance,                                                          // Instance handle
-                     NULL                                                               // Additional application data
-      );
+      CreateWindowEx(0, CLASS_NAME, L"Test App", WS_OVERLAPPEDWINDOW, posx,
+                     posy, width, height, NULL, NULL, instance, NULL);
 
   if (hwnd == NULL) {
     return 0;
   }
 
-  ShowWindow(hwnd, nCmdShow); 
+  ShowWindow(hwnd, CmdShow);
 
   // Run the message loop.
 
@@ -64,7 +52,5 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE hPrevInstance, PWSTR pCmdLine,
     DispatchMessage(&msg);
   }
 
-  
   return 0;
 }
-
